@@ -10,6 +10,14 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  color: #9B2221;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 25px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
 h3 {
   color: #9B2221;
   font-family: "Lucida Console", "Courier New", monospace;
@@ -19,14 +27,19 @@ h3 {
 }
 
 p {
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 0px 10px;
   font-size: 18px;
 }
 
 a {
-  color: #CC9816;
+  color: #9B2221;
   font-size: 20px;
   margin: 10px 0px 10px 0px;
+  font-family: "Lucida" Grande, sans-serif;
+}
+
+i {
+  padding: 5px 5px 5px 5px;
 }
 
 img {
@@ -130,3 +143,23 @@ color: #292929;
 background: #fefefe;
 border-color: #292929;
 }
+
+button {
+  cursor: pointer;
+  font-size: 20px;
+  height: 50px;
+  width: max-content;
+  margin: 10px 10px 10px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  outline: none;
+  border: none;
+}
+
+.stripe {
+  border-radius: 35px;
+  background-color: #DED3B0;
+  background-size: 100%;
+}
+
