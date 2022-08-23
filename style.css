@@ -6,13 +6,13 @@ body {
 
 h1 {
   color: #082958;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: 'Raleway', monospace;
   font-size: 50px;
 }
 
 h2 {
   color: #9B2221;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family:'Raleway', monospace;
   font-size: 25px;
   padding-bottom: 8px;
   padding-top: 8px;
@@ -20,7 +20,7 @@ h2 {
 
 h3 {
   color: #9B2221;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family:'Raleway', monospace;
   font-size: 20px;
   padding-bottom: 8px;
   padding-top: 8px;
@@ -35,7 +35,7 @@ a {
   color: #9B2221;
   font-size: 20px;
   margin: 10px 0px 10px 0px;
-  font-family: "Lucida" Grande, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 i {
