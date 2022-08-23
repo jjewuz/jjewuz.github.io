@@ -1,17 +1,17 @@
 body {
   font-family: 'Raleway', sans-serif;
-  color: #58516B;
-  background-color: #CFD2CD;
+  color: #4B5683;
+  background-color: #DED3B0;
 }
 
 h1 {
-  color: #63998D;
+  color: #082958;
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 50px;
 }
 
 h3 {
-  color: #63998D;
+  color: #9B2221;
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 20px;
   padding-bottom: 8px;
@@ -24,7 +24,7 @@ p {
 }
 
 a {
-  color: #58516B;
+  color: #CC9816;
   font-size: 20px;
   margin: 10px 0px 10px 0px;
 }
@@ -35,7 +35,7 @@ img {
 }
 
 .card {
-  background-color: #fff;
+  background-color: #F4EFDC;
   border-radius: 35px;
   box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
   transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
