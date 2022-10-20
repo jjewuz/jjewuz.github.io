@@ -12,7 +12,7 @@ h1 {
 
 h2 {
   color: #9B2221;
-  font-family:'Raleway', monospace;
+  font-family: 'Raleway', monospace;
   font-size: 25px;
   padding-bottom: 8px;
   padding-top: 8px;
@@ -20,7 +20,7 @@ h2 {
 
 h3 {
   color: #9B2221;
-  font-family:'Raleway', monospace;
+  font-family: 'Raleway', monospace;
   font-size: 20px;
   padding-bottom: 8px;
   padding-top: 8px;
@@ -56,14 +56,14 @@ img {
 .card {
   background-color: #F4EFDC;
   border-radius: 35px;
-  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+  transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
   cursor: pointer;
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.05);
-box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
 }
 
 * {
@@ -87,67 +87,85 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 
 
 .rounded-social-buttons {
-text-align: center;
+  text-align: center;
 }
 
 .rounded-social-buttons .social-button {
-display: inline-block;
-position: relative;
-cursor: pointer;
-width: 3.125rem;
-height: 3.125rem;
-border: 0.125rem solid transparent;
-padding: 0;
-text-decoration: none;
-text-align: center;
-color: #fefefe;
-font-size: 1.5625rem;
-font-weight: normal;
-line-height: 2em;
-border-radius: 1.6875rem;
-transition: all 0.5s ease;
-margin-right: 0.25rem;
-margin-bottom: 0.25rem;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
-.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
--webkit-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-        transform: rotate(360deg);
+.rounded-social-buttons .social-button:hover,
+.rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
-.rounded-social-buttons .fa-tg, .fa-vk, .fa-gh {
-font-size: 25px;
+.rounded-social-buttons .fa-tg,
+.fa-vk,
+.fa-gh,
+fa-ds {
+  font-size: 25px;
 }
 
 .rounded-social-buttons .social-button.vk {
-background: #3b5998;
+  background: #3b5998;
 }
 
-.rounded-social-buttons .social-button.vk:hover, .rounded-social-buttons .social-button.vk:focus {
-color: #3b5998;
-background: #fefefe;
-border-color: #3b5998;
+.rounded-social-buttons .social-button.vk:hover,
+.rounded-social-buttons .social-button.vk:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
 }
 
 .rounded-social-buttons .social-button.tg {
-background: #55acee;
+  background: #55acee;
 }
 
-.rounded-social-buttons .social-button.tg:hover, .rounded-social-buttons .social-button.twitter:focus {
-color: #55acee;
-background: #fefefe;
-border-color: #55acee;
+.rounded-social-buttons .social-button.tg:hover,
+.rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
 }
 
 .rounded-social-buttons .social-button.gh {
-background: #292929;
+  background: #292929;
 }
 
-.rounded-social-buttons .social-button.gh:hover, .rounded-social-buttons .social-button.gh:focus {
-color: #292929;
-background: #fefefe;
-border-color: #292929;
+.rounded-social-buttons .social-button.gh:hover,
+.rounded-social-buttons .social-button.gh:focus {
+  color: #292929;
+  background: #fefefe;
+  border-color: #292929;
+}
+
+.rounded-social-buttons .social-button.ds {
+  background: #7599e7;
+}
+
+.rounded-social-buttons .social-button.ds:hover,
+.rounded-social-buttons .social-button.ds:focus {
+  color: #7599e7;
+  background: #fefefe;
+  border-color: #7599e7;
 }
 
 button {
@@ -160,7 +178,6 @@ button {
   text-transform: uppercase;
   font-weight: 600;
   outline: none;
-  border: none;
 }
 
 .stripe {
@@ -169,3 +186,9 @@ button {
   background-size: 100%;
 }
 
+.donate {
+  border-radius: 35px;
+  background-color: #DED3B0;
+  background-size: 100%;
+  background-color: #F4EFDC;
+}
