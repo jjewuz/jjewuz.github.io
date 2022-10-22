@@ -49,13 +49,13 @@ hr {
 }
 
 img {
-  margin-top: 10px;
-  border-radius: 35px;
+  border-radius: 25px;
 }
 
 .card {
   background-color: #F4EFDC;
   border-radius: 35px;
+  padding: 15px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
   transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
   cursor: pointer;
@@ -75,7 +75,7 @@ img {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+  grid-template-columns: repeat(1, minmax(30ch, 1fr));
   grid-gap: 25px;
   max-width: 90vw;
   width: 120ch;
@@ -190,4 +190,11 @@ button {
   border-radius: 35px;
   background-color: #DED3B0;
   background-color: #F4EFDC;
+  transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+  cursor: pointer;
+}
+
+.donate:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
 }
