@@ -50,6 +50,7 @@ hr {
 
 img {
   border-radius: 25px;
+  background-size: cover;
 }
 
 .card {
