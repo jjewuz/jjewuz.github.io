@@ -1,17 +1,17 @@
 body {
   font-family: 'Raleway', sans-serif;
-  color: #4B5683;
-  background-color: #DED3B0;
+  color: #4A4952;
+  background-color: #E6E6E6;
 }
 
 h1 {
-  color: #082958;
+  color: #365875;
   font-family: 'Raleway', monospace;
   font-size: 50px;
 }
 
 h2 {
-  color: #9B2221;
+  color: #5EA0A0;
   font-family: 'Raleway', monospace;
   font-size: 25px;
   padding-bottom: 8px;
@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-  color: #9B2221;
+  color: #365875;
   font-family: 'Raleway', monospace;
   font-size: 20px;
   padding-bottom: 8px;
@@ -32,7 +32,7 @@ p {
 }
 
 a {
-  color: #9B2221;
+  color: #365875;
   font-size: 20px;
   margin: 10px 0px 10px 0px;
   font-family: 'Raleway', sans-serif;
@@ -44,7 +44,7 @@ i {
 
 hr {
   height: 2px;
-  background-color: #9B2221;
+  background-color: #5EA0A0;
   border: none;
 }
 
@@ -54,7 +54,7 @@ img {
 }
 
 .card {
-  background-color: #F4EFDC;
+  background-color: #F2F3F4;
   border-radius: 35px;
   padding: 15px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
@@ -183,14 +183,13 @@ button {
 
 .stripe {
   border-radius: 35px;
-  background-color: #DED3B0;
+  background-color: #F2F3F4;
   background-size: 100%;
 }
 
 .donate {
   border-radius: 35px;
-  background-color: #DED3B0;
-  background-color: #F4EFDC;
+  background-color: #F2F3F4;
   transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
   cursor: pointer;
 }
